@@ -29,4 +29,5 @@
 var num = 0.1;
 var num2 = 0.2;
 var sum = num + num2;
+sum = sum.toFixed(2);
 console.log(sum);
