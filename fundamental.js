@@ -32,6 +32,28 @@
 // sum = sum.toFixed(2);
 // console.log(sum);
 
-var x = "60";
-x = parseInt(x);
-console.log(x);
+// var x = "60";
+// x = parseInt(x);
+// console.log(x);
+
+// var y = 0.1;
+// var z = 0.2;
+// var sum = y + z;
+// sum = parseFloat(sum);
+// console.log(sum);
+
+// var mango = 30;
+// var sale = 14;
+// var remainder = mango % sale;
+// console.log(remainder);
+
+var haryMom = 1000;
+var orange = 300;
+var apple = 400;
+
+var cost = orange + apple;
+
+// console.log(cost);
+
+var remainder = haryMom - cost;
+console.log(remainder);
