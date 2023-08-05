@@ -55,10 +55,11 @@
 // for (var city of cities) {
 //   console.log(city);
 // }
-var numbers = [43, 48, 56, 98, 45, 19, 26];
-// numbers.push(108);
-console.log(numbers);
+// var numbers = [43, 48, 56, 98, 45, 19, 26];
+// // numbers.push(108);
+// console.log(numbers);
 
-numbers.pop();
+// numbers.pop();
 
-console.log(numbers);
+// console.log(numbers);
+// Comparisons
