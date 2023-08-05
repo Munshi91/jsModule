@@ -25,4 +25,26 @@
 //   console.log("mas a thakbo");
 // }
 
+//80 or above A grade
+//60 or above B grade
+//50 or above C grade
+//40 or above D grade
+//39 or less => F grade
 
+var myScore = 40;
+var tomsScore = 66;
+var janesScore = 95;
+var petersScore = 56;
+var johnsScore = 56;
+
+if (myScore > 80) {
+  console.log("Grade is A");
+} else if (myScore > 60) {
+  console.log("Grade is B");
+} else if (myScore > 50) {
+  console.log("Grade is B");
+} else if (myScore > 40) {
+  console.log("Grade is B");
+} else {
+  console.log("F Grade");
+}
