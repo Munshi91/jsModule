@@ -20,6 +20,12 @@
 // cities.push('Bradford', 'Brighton');
 // console.log(cities);
 
+// const cities = ['Manchester', 'Liverpool'];
+// cities.unshift('Edinburgh');
+// console.log(cities);
+
 const cities = ['Manchester', 'Liverpool'];
-cities.unshift('Edinburgh');
+cities.unshift('Bradford', 'Brighton');
+
+cities.pop();
 console.log(cities);
