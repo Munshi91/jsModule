@@ -46,7 +46,12 @@
 // }
 // console.log(cities);
 
-let birds = ['Parrot', 'Falcon', 'Owl'];
-for (let bird of birds) {
-  console.log(bird);
+// let birds = ['Parrot', 'Falcon', 'Owl'];
+// for (let bird of birds) {
+//   console.log(bird);
+// }
+
+const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
+for (var citi of cities) {
+  console.log(citi);
 }
