@@ -15,7 +15,11 @@
 
 // console.log(birds.indexOf('Owl'));
 
-const cities = ['Manchester', 'Liverpool'];
+// const cities = ['Manchester', 'Liverpool'];
 
-cities.push('Cardiff');
+// cities.push('Bradford', 'Brighton');
+// console.log(cities);
+
+const cities = ['Manchester', 'Liverpool'];
+cities.unshift('Edinburgh');
 console.log(cities);
