@@ -5,3 +5,8 @@
 var num1 = 56;
 var num2 = 46;
 console.log(num1 <= num2);
+
+
+// multiple condition
+
+
