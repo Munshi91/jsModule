@@ -8,11 +8,19 @@
 
 // multiple condition
 
-var iphonePrice = 50000;
-var myBudget = 100000;
+// var iphonePrice = 50000;
+// var myBudget = 100000;
 
-if (iphonePrice > myBudget) {
-  console.log("parches i phone");
+// if (iphonePrice > myBudget) {
+//   console.log("parches i phone");
+// } else {
+//   console.log("normal phone parches");
+// }
+var isGraduated = true;
+var salary = 30000;
+
+if (isGraduated == true && salary > 50000) {
+  console.log("basa vara nebo");
 } else {
-  console.log("normal phone parches");
+  console.log("mas a thakbo");
 }
