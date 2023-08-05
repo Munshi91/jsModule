@@ -63,3 +63,14 @@
 
 // console.log(numbers);
 // Comparisons
+
+var fruits = ["apple", "Banana", "Orange"];
+// console.log(fruits[1]);
+// var index = fruits.indexOf("Banana");
+fruits[1] = "mango";
+// console.log(index);
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+fruits.push("Watermelon");
+console.log(fruits);

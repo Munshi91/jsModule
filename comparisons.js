@@ -16,11 +16,13 @@
 // } else {
 //   console.log("normal phone parches");
 // }
-var isGraduated = true;
-var salary = 30000;
+// var isGraduated = false;
+// var salary = 30000;
 
-if (isGraduated == true && salary > 50000) {
-  console.log("basa vara nebo");
-} else {
-  console.log("mas a thakbo");
-}
+// if (isGraduated == true || salary > 50000) {
+//   console.log("basa vara nebo");
+// } else {
+//   console.log("mas a thakbo");
+// }
+
+
