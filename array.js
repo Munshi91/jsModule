@@ -52,6 +52,6 @@
 // }
 
 const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
-for (var citi of cities) {
-  console.log(citi);
+for (var city of cities) {
+  console.log(city);
 }
