@@ -38,10 +38,15 @@
 // cities.shift();
 // console.log(cities);
 
-const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
-const index = cities.indexOf('Liverpool');
+// const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
+// const index = cities.indexOf('Liverpool');
 
-if (index !== -1) {
-  cities.splice(index, 2);
+// if (index !== -1) {
+//   cities.splice(index, 2);
+// }
+// console.log(cities);
+
+let birds = ['Parrot', 'Falcon', 'Owl'];
+for (let bird of birds) {
+  console.log(bird);
 }
-console.log(cities);
