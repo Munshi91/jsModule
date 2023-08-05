@@ -34,6 +34,14 @@
 // let removedCity = cities.pop();
 // console.log(removedCity);
 
-let cities = ['Manchester', 'Liverpool'];
-cities.shift();
+// let cities = ['Manchester', 'Liverpool'];
+// cities.shift();
+// console.log(cities);
+
+const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
+const index = cities.indexOf('Liverpool');
+
+if (index !== -1) {
+  cities.splice(index, 2);
+}
 console.log(cities);
