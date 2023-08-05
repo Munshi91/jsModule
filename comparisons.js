@@ -31,11 +31,15 @@
 //40 or above D grade
 //39 or less => F grade
 
-var myScore = 40;
+// Practice Problem2
+
+var myScore = 85;
 var tomsScore = 66;
 var janesScore = 95;
 var petersScore = 56;
-var johnsScore = 56;
+var johnsScore = 40;
+
+// var result = [85, 66, 95, 56, 40];
 
 if (myScore > 80) {
   console.log("Grade is A");
