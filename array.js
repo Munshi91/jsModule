@@ -11,6 +11,11 @@
 // random[2][2];
 // // console.log(random);
 
-var birds = ['Parrot', 'Falcon', 'Owl'];
+// var birds = ['Parrot', 'Falcon', 'Owl'];
 
-console.log(birds.indexOf('Owl'));
+// console.log(birds.indexOf('Owl'));
+
+const cities = ['Manchester', 'Liverpool'];
+
+cities.push('Cardiff');
+console.log(cities);
