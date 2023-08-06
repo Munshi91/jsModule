@@ -52,9 +52,15 @@
 // for (var i = 1; i <= 20; i += 2) {
 //   console.log(i);
 // }
-var numbers = [45, 38, 58, 958, 857, 98, 58, 56, 76, 85];
+// var numbers = [45, 38, 58, 958, 857, 98, 58, 56, 76, 85];
 
-for (i = 0; i < numbers.length; i++) {
-  var number = numbers[i];
-  console.log(number);
+// for (i = 0; i < numbers.length; i++) {
+//   var number = numbers[i];
+//   console.log(number);
+// }
+for (i = 0; i < 7; i++) {
+  console.log(i);
+  if (i > 4) {
+    break;
+  }
 }
