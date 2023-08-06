@@ -7,12 +7,17 @@
 // var paperIndex = tableData.indexOf("paper");
 // console.log(paperIndex);
 
-var roastGiven = 0;
+// var roastGiven = 0;
 
-while (roastGiven < 7) {
-  console.log("Rost den, please");
-  // roastGiven= roastGiven +1;
-  // roastGiven += 1;
-  console.log(roastGiven);
-  roastGiven++;
+// while (roastGiven < 7) {
+//   console.log("Rost den, please");
+//   // roastGiven= roastGiven +1;
+//   // roastGiven += 1;
+//   console.log(roastGiven);
+//   roastGiven++;
+// }
+var number = 0;
+while (number <= 10) {
+  console.log(number);
+  number++;
 }
