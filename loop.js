@@ -16,8 +16,17 @@
 //   console.log(roastGiven);
 //   roastGiven++;
 // }
+// var number = 5;
+// while (number <= 10) {
+//   console.log(number);
+//   number++;
+// }
+
+// Event numbers
+
 var number = 0;
-while (number <= 10) {
+while (number <= 20) {
   console.log(number);
-  number++;
+  // number++;
+  number = number + 2;
 }
