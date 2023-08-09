@@ -41,6 +41,10 @@
 // console.log(sumMachine(2, 6));
 // console.log(sumMachine(27, 636));
 
+/******************************
+ Programming Hero Problem Solve
+ ******************************/
+
 /* javascript Problem Solve 1 */
 
 /* function cubeNumber(numbers) {
@@ -58,7 +62,7 @@ console.log(cubeNumber(4)); */
 
 /* javascript Problem Solve 1 simple way */
 
-function cubeNumber(numbers) {
+/* function cubeNumber(numbers) {
   if (typeof numbers === "number") {
     return numbers ** 3;
   } else if (typeof numbers === "string") {
@@ -69,7 +73,7 @@ function cubeNumber(numbers) {
 }
 console.log(cubeNumber(3));
 console.log(cubeNumber(4));
-console.log(cubeNumber("hello"));
+console.log(cubeNumber("hello")); */
 
 /* javascript Problem Solve 2 */
 
