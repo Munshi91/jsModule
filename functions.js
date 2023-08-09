@@ -77,7 +77,7 @@ console.log(cubeNumber("hello")); */
 
 /* javascript Problem Solve 2 */
 
-function matchFinder(string1, string2) {
+/* function matchFinder(string1, string2) {
   if (typeof string1 !== "string" || typeof string2 !== "string") {
     return "Inputs Should be strings.";
   }
@@ -97,3 +97,4 @@ console.log(matchFinder("javascript", "code"));
 console.log(matchFinder("peter parker", "pen"));
 console.log(matchFinder("Peter parker", "pet"));
 console.log(matchFinder(23, 45));
+ */
