@@ -102,14 +102,14 @@ console.log(matchFinder(23, 45));
 /* javascript Problem Solve 3 */
 
 function sortMaker(arr) {
-  if (arr < 0 || arr < 0) {
-    return "Error: Both values should be positive.";
-  } else if (arr === arr) {
-    return "equal";
-  } else if (arr > 0 && arr > 0) {
-    return [Math.max(arr), Math.min(arr)];
+  if (arr[0] < 0 || arr[1] < 0) {
+    return 'Error: Both values should be positive.';
+  } else if (arr[0] === arr[1]) {
+    return 'equal';
+  } else if (arr[0] > 0 && arr[1] > 0) {
+    return [Math.max(arr[0]), Math.min(arr[1])];
   } else {
-    return "invalid input";
+    return 'invalid input';
   }
 }
-console.log(sortMaker(5, 10));
+console.log(sortMaker(10, 30));
