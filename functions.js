@@ -199,3 +199,39 @@ console.log("factorial of", number, fact); */
 
 // [num1, num2] = swapVariables(num1, num2);
 // console.log("After swap: num1 =", num1, "num2 =", num2);
+
+function findAddress(inputObject) {
+  const result = {};
+
+  if (inputObject.hasOwnProperty("start")) {
+    result.start = inputObject.start;
+  } else {
+    result.start = "__";
+  }
+
+  if (inputObject.hasOwnProperty("house")) {
+    result.house = inputObject.house;
+  } else {
+    result.house = "__";
+  }
+
+  if (inputObject.hasOwnProperty("society")) {
+    result.society = inputObject.society;
+  } else {
+    result.society = "__";
+  }
+
+  return result;
+}
+// Example usage
+const input1 = { start: "123 Main St", house: "A-1", society: "Green Valley" };
+const input2 = { start: "456 Elm Rd", society: "Hillside Apartments" };
+const input3 = { house: "B-2", society: "Sunset Heights" };
+
+// const output1 = findAddress(input1);
+// const output2 = findAddress(input2);
+// const output3 = findAddress(input3);
+
+console.log(findAddress(input1));
+console.log(findAddress(input2));
+console.log(findAddress(input3));
