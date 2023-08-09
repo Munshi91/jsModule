@@ -56,9 +56,24 @@
 console.log(cubeNumber(3));
 console.log(cubeNumber(4)); */
 
+/* javascript Problem Solve 1 simple way */
+
+function cubeNumber(numbers) {
+  if (typeof numbers === "number") {
+    return numbers ** 3;
+  } else if (typeof numbers === "string") {
+    return "Error: Input should be a number.";
+  } else {
+    return "Error: Input should be a number.";
+  }
+}
+console.log(cubeNumber(3));
+console.log(cubeNumber(4));
+console.log(cubeNumber("hello"));
+
 /* javascript Problem Solve 2 */
 
-function matchFinder(str1, str2) {
+/* function matchFinder(str1, str2) {
   if (typeof str1 !== "string" || typeof str2 !== "string") {
     return "Inputs Should be strings.";
   }
@@ -77,4 +92,4 @@ console.log(matchFinder("apple", "orange"));
 console.log(matchFinder("javascript", "code"));
 console.log(matchFinder("peter parker", "pen"));
 console.log(matchFinder("Peter parker", "pet"));
-console.log(matchFinder(23, 45));
+console.log(matchFinder(23, 45)); */
