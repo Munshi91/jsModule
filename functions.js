@@ -98,3 +98,18 @@ console.log(matchFinder("peter parker", "pen"));
 console.log(matchFinder("Peter parker", "pet"));
 console.log(matchFinder(23, 45));
  */
+
+/* javascript Problem Solve 3 */
+
+function sortMaker(arr) {
+  if (arr < 0 || arr < 0) {
+    return "Error: Both values should be positive.";
+  } else if (arr === arr) {
+    return "equal";
+  } else if (arr > 0 && arr > 0) {
+    return [Math.max(arr), Math.min(arr)];
+  } else {
+    return "invalid input";
+  }
+}
+console.log(sortMaker(5, 10));
