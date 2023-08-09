@@ -103,16 +103,26 @@ console.log(matchFinder(23, 45));
 
 // function sortMaker(arr) {
 //   if (arr[0] < 0 || arr[1] < 0) {
-//     return "Error: Both values should be positive.";
+//     return "invalid input";
 //   } else if (arr[0] === arr[1]) {
 //     return "equal";
 //   } else if (arr[0] > 0 && arr[1] > 0) {
-//     return [Math.max(arr[0]), Math.min(arr[1])];
+//     if (arr[0] < arr[1]) {
+//       let temp = arr[0];
+//       arr[0] = arr[1];
+//       arr[1] = temp;
+//     }
+//     return arr;
 //   } else {
 //     return "invalid input";
 //   }
 // }
-// console.log(sortMaker(100, 100));
+// let result1 = [5, 10];
+// let result2 = [5, 5];
+// let result3 = [-3, 8];
+// console.log(sortMaker(result1));
+// console.log(sortMaker(result2));
+// console.log(sortMaker(result3));
 
 /* javascript Problem Solve 4 */
 
@@ -162,7 +172,7 @@ getSumOfAnArray(myNumbers); */
 // sumOfNumber(45);
 
 /* Factorial using a while loop */
-function factorial(number) {
+/* function factorial(number) {
   let result = 1;
   for (let i = number; i >= 1; i--) {
     result = result * i;
@@ -172,4 +182,20 @@ function factorial(number) {
 }
 const number = 5;
 const fact = factorial(number);
-console.log("factorial of", number, fact);
+console.log("factorial of", number, fact); */
+
+/* Swap variable, swap without temp */
+// function swapVariables(a, b) {
+//   let temp = a;
+//   a = b;
+//   b = temp;
+//   return [a, b];
+// }
+
+// // Example usage
+// let num1 = 5;
+// let num2 = 10;
+// console.log("Before swap: num1 =", num1, "num2 =", num2);
+
+// [num1, num2] = swapVariables(num1, num2);
+// console.log("After swap: num1 =", num1, "num2 =", num2);
