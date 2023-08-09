@@ -51,8 +51,6 @@ function cubeNumber(numbers) {
     // number = i ** 3;
   }
   return number;
-  if (number) {
-  }
 }
 
 console.log(cubeNumber(3));
