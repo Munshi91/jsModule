@@ -151,11 +151,25 @@ getSumOfAnArray(myNumbers); */
 //   sum = sum + i;
 //   console.log(i, sum);
 // }
-function sumOfNumber(number) {
-  let sum = 0;
-  for (let i = 1; i <= number; i++) {
-    sum = sum + i;
-    console.log(i, sum);
+// function sumOfNumber(number) {
+//   let sum = 0;
+//   for (let i = 1; i <= number; i++) {
+//     sum = sum + i;
+//     console.log(i, sum);
+//   }
+//   return sum;
+// }
+// sumOfNumber(45);
+
+/* Factorial using a while loop */
+function factorial(number) {
+  let result = 1;
+  for (let i = number; i >= 1; i--) {
+    result = result * i;
+    console.log(i);
   }
-  return sum;
+  return result;
 }
+const number = 5;
+const fact = factorial(number);
+console.log("factorial of", number, fact);
