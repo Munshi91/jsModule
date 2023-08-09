@@ -132,7 +132,7 @@ console.log(matchFinder(23, 45));
 // console.log(herNumberIsEvent);
 
 //Calculate Sum of all numbers of an array
-function getSumOfAnArray(numbers) {
+/* function getSumOfAnArray(numbers) {
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     const index = i;
@@ -143,4 +143,19 @@ function getSumOfAnArray(numbers) {
 }
 
 const myNumbers = [12, 65, 35, 47, 58, 98, 86, 87];
-getSumOfAnArray(myNumbers);
+getSumOfAnArray(myNumbers); */
+
+/* Calculate Factorial of a number using for loop */
+// let sum = 0;
+// for (let i = 1; i <= 7; i++) {
+//   sum = sum + i;
+//   console.log(i, sum);
+// }
+function sumOfNumber(number) {
+  let sum = 0;
+  for (let i = 1; i <= number; i++) {
+    sum = sum + i;
+    console.log(i, sum);
+  }
+  return sum;
+}
