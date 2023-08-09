@@ -115,3 +115,18 @@ console.log(matchFinder(23, 45));
 // console.log(sortMaker(100, 100));
 
 /* javascript Problem Solve 4 */
+
+//  event and odd function
+function isEven(number) {
+  const remainder = number % 2;
+  if (remainder === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+const myNumberIsEven = isEven(23);
+console.log(myNumberIsEven);
+
+const herNumberIsEvent = isEven(230);
+console.log(herNumberIsEvent);
