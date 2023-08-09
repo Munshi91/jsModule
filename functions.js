@@ -47,8 +47,8 @@ function cubeNumber(numbers) {
   let number = 0;
 
   for (let i = 1; i <= numbers; i++) {
-    // number = Math.pow(i, 3);
-    number = i ** 3;
+    number = Math.pow(i, 3);
+    // number = i ** 3;
   }
   return number;
   if (number) {
