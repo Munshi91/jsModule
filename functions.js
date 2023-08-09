@@ -112,4 +112,6 @@ function sortMaker(arr) {
     return 'invalid input';
   }
 }
-console.log(sortMaker(10, 30));
+console.log(sortMaker(100, 100));
+
+/* javascript Problem Solve 4 */
