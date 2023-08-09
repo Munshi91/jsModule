@@ -117,16 +117,30 @@ console.log(matchFinder(23, 45));
 /* javascript Problem Solve 4 */
 
 //  event and odd function
-function isEven(number) {
-  const remainder = number % 2;
-  if (remainder === 0) {
-    return true;
-  } else {
-    return false;
+// function isEven(number) {
+//   const remainder = number % 2;
+//   if (remainder === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// const myNumberIsEven = isEven(23);
+// console.log(myNumberIsEven);
+
+// const herNumberIsEvent = isEven(230);
+// console.log(herNumberIsEvent);
+
+//Calculate Sum of all numbers of an array
+function getSumOfAnArray(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    const index = i;
+    const element = numbers[index];
+    sum = sum + element;
+    console.log(index, element, sum);
   }
 }
-const myNumberIsEven = isEven(23);
-console.log(myNumberIsEven);
 
-const herNumberIsEvent = isEven(230);
-console.log(herNumberIsEvent);
+const myNumbers = [12, 65, 35, 47, 58, 98, 86, 87];
+getSumOfAnArray(myNumbers);
