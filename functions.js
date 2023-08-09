@@ -77,14 +77,14 @@ console.log(cubeNumber("hello")); */
 
 /* javascript Problem Solve 2 */
 
-/* function matchFinder(str1, str2) {
-  if (typeof str1 !== "string" || typeof str2 !== "string") {
+function matchFinder(string1, string2) {
+  if (typeof string1 !== "string" || typeof string2 !== "string") {
     return "Inputs Should be strings.";
   }
 
-  const matchWordFinder = str2.split(" ");
+  const matchWordFinder = string2.split(" ");
   for (const word of matchWordFinder) {
-    if (str1.includes(word)) {
+    if (string1.includes(word)) {
       return true;
     }
   }
@@ -96,4 +96,4 @@ console.log(matchFinder("apple", "orange"));
 console.log(matchFinder("javascript", "code"));
 console.log(matchFinder("peter parker", "pen"));
 console.log(matchFinder("Peter parker", "pet"));
-console.log(matchFinder(23, 45)); */
+console.log(matchFinder(23, 45));
