@@ -43,7 +43,7 @@
 
 /* javascript Problem Solve 1 */
 
-function cubeNumber(numbers) {
+/* function cubeNumber(numbers) {
   let number = 0;
 
   for (let i = 1; i <= numbers; i++) {
@@ -54,4 +54,27 @@ function cubeNumber(numbers) {
 }
 
 console.log(cubeNumber(3));
-console.log(cubeNumber(4));
+console.log(cubeNumber(4)); */
+
+/* javascript Problem Solve 2 */
+
+function matchFinder(str1, str2) {
+  if (typeof str1 !== "string" || typeof str2 !== "string") {
+    return "Inputs Should be strings.";
+  }
+
+  const matchWordFinder = str2.split(" ");
+  for (const word of matchWordFinder) {
+    if (str1.includes(word)) {
+      return true;
+    }
+  }
+  return false;
+}
+console.log(matchFinder("hello", "llo"));
+console.log(matchFinder("hello", "hello"));
+console.log(matchFinder("apple", "orange"));
+console.log(matchFinder("javascript", "code"));
+console.log(matchFinder("peter parker", "pen"));
+console.log(matchFinder("Peter parker", "pet"));
+console.log(matchFinder(23, 45));
