@@ -201,7 +201,8 @@ console.log("factorial of", number, fact); */
 // console.log("After swap: num1 =", num1, "num2 =", num2);
 
 /* javascript Problem Solve 4 */
-function findAddress(obj) {
+
+/* function findAddress(obj) {
   const result = {};
 
   if (obj.hasOwnProperty("street")) {
@@ -236,11 +237,11 @@ const output3 = findAddress(input3);
 
 console.log(output1.street, output1.house, output1.society);
 console.log(output2.street, output2.house, output2.society);
-console.log(output3.street, output3.house, output3.society);
+console.log(output3.street, output3.house, output3.society); */
 
 /* javascript Problem Solve 5 */
 
-/* function canPay(changeArray, totalDue) {
+function canPay(changeArray, totalDue) {
   if (changeArray.length === 0) {
     return false;
   }
@@ -256,4 +257,23 @@ console.log(output3.street, output3.house, output3.society);
 const expenses = [25, 25, 50, 20];
 const targetAmount = 120;
 console.log(canPay(expenses, targetAmount));
- */
+
+/* javascript Problem Solve 4 */
+function findAddress(obj) {
+  if (typeof obj !== 'object') {
+    return 'please provide me a valid object';
+  } else {
+    const street = obj.street || '__';
+    const house = obj.house || '__';
+    const society = obj.society || '__';
+    // console.log(street, house, society);
+    return '' + street + ' ' + house + '' + society + '';
+  }
+}
+const obj = {
+  street: '123 Main St',
+  house: 'A-1',
+  society: 'Green Valley',
+};
+
+console.log(findAddress(obj));
