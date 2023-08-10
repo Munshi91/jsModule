@@ -199,13 +199,15 @@ console.log("factorial of", number, fact); */
 
 // [num1, num2] = swapVariables(num1, num2);
 // console.log("After swap: num1 =", num1, "num2 =", num2);
-/* function findAddress(obj) {
+
+/* javascript Problem Solve 4 */
+function findAddress(obj) {
   const result = {};
 
-  if (obj.hasOwnProperty("start")) {
-    result.start = obj.start;
+  if (obj.hasOwnProperty("street")) {
+    result.street = obj.street;
   } else {
-    result.start = "__";
+    result.street = "__";
   }
 
   if (obj.hasOwnProperty("house")) {
@@ -224,19 +226,19 @@ console.log("factorial of", number, fact); */
 }
 
 // Example usage
-const input1 = { start: "123 Main St", house: "A-1", society: "Green Valley" };
-const input2 = { start: "456 Elm Rd", society: "Hillside Apartments" };
+const input1 = { street: "123 Main St", house: "A-1", society: "Green Valley" };
+const input2 = { street: "456 Elm Rd", society: "Hillside Apartments" };
 const input3 = { society: "Sunset Heights" };
 
 const output1 = findAddress(input1);
 const output2 = findAddress(input2);
 const output3 = findAddress(input3);
 
-console.log(output1.start, output1.house, output1.society);
-console.log(output2.start, output2.house, output2.society);
-console.log(output3.start, output3.house, output3.society); */
+console.log(output1.street, output1.house, output1.society);
+console.log(output2.street, output2.house, output2.society);
+console.log(output3.street, output3.house, output3.society);
 
-/* Problem solve 5 */
+/* javascript Problem Solve 5 */
 
 /* function canPay(changeArray, totalDue) {
   if (changeArray.length === 0) {
