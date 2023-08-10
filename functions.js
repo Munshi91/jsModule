@@ -199,39 +199,64 @@ console.log("factorial of", number, fact); */
 
 // [num1, num2] = swapVariables(num1, num2);
 // console.log("After swap: num1 =", num1, "num2 =", num2);
-
-function findAddress(inputObject) {
+/* function findAddress(obj) {
   const result = {};
 
-  if (inputObject.hasOwnProperty("start")) {
-    result.start = inputObject.start;
+  if (obj.hasOwnProperty("start")) {
+    result.start = obj.start;
   } else {
     result.start = "__";
   }
 
-  if (inputObject.hasOwnProperty("house")) {
-    result.house = inputObject.house;
+  if (obj.hasOwnProperty("house")) {
+    result.house = obj.house;
   } else {
     result.house = "__";
   }
 
-  if (inputObject.hasOwnProperty("society")) {
-    result.society = inputObject.society;
+  if (obj.hasOwnProperty("society")) {
+    result.society = obj.society;
   } else {
     result.society = "__";
   }
 
   return result;
 }
+
 // Example usage
 const input1 = { start: "123 Main St", house: "A-1", society: "Green Valley" };
 const input2 = { start: "456 Elm Rd", society: "Hillside Apartments" };
-const input3 = { house: "B-2", society: "Sunset Heights" };
+const input3 = { society: "Sunset Heights" };
 
-// const output1 = findAddress(input1);
-// const output2 = findAddress(input2);
-// const output3 = findAddress(input3);
+const output1 = findAddress(input1);
+const output2 = findAddress(input2);
+const output3 = findAddress(input3);
 
-console.log(findAddress(input1));
-console.log(findAddress(input2));
-console.log(findAddress(input3));
+console.log(output1.start, output1.house, output1.society);
+console.log(output2.start, output2.house, output2.society);
+console.log(output3.start, output3.house, output3.society); */
+
+/* Problem solve 5 */
+
+function canPay(changeArray, totalDue) {
+  if (changeArray.length === 0) {
+    return false;
+  }
+  let sum = 0;
+  for (let i = 0; i < changeArray.length; i++) {
+    sum += changeArray[i];
+  }
+
+  return sum === totalDue;
+}
+
+// Example usage
+const expenses1 = [];
+const expenses2 = [25, 25, 50, 20];
+const targetAmount = 120;
+
+const result1 = canPay(expenses1, targetAmount);
+console.log(result1);
+
+const result2 = canPay(expenses2, targetAmount);
+console.log(result2);
