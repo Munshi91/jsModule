@@ -238,7 +238,7 @@ console.log(output3.start, output3.house, output3.society); */
 
 /* Problem solve 5 */
 
-function canPay(changeArray, totalDue) {
+/* function canPay(changeArray, totalDue) {
   if (changeArray.length === 0) {
     return false;
   }
@@ -251,12 +251,7 @@ function canPay(changeArray, totalDue) {
 }
 
 // Example usage
-const expenses1 = [];
-const expenses2 = [25, 25, 50, 20];
+const expenses = [25, 25, 50, 20];
 const targetAmount = 120;
-
-const result1 = canPay(expenses1, targetAmount);
-console.log(result1);
-
-const result2 = canPay(expenses2, targetAmount);
-console.log(result2);
+console.log(canPay(expenses, targetAmount));
+ */
