@@ -241,39 +241,102 @@ console.log(output3.street, output3.house, output3.society); */
 
 /* javascript Problem Solve 5 */
 
-function canPay(changeArray, totalDue) {
-  if (changeArray.length === 0) {
-    return false;
-  }
-  let sum = 0;
-  for (let i = 0; i < changeArray.length; i++) {
-    sum += changeArray[i];
-  }
+// function canPay(changeArray, totalDue) {
+//   if (changeArray.length === 0) {
+//     return false;
+//   }
+//   let sum = 0;
+//   for (let i = 0; i < changeArray.length; i++) {
+//     sum += changeArray[i];
+//   }
 
-  return sum === totalDue;
-}
+//   return sum === totalDue;
+// }
 
 // Example usage
-const expenses = [25, 25, 50, 20];
-const targetAmount = 120;
-console.log(canPay(expenses, targetAmount));
+// const expenses = [25, 25, 50, 20];
+// const targetAmount = 120;
+// console.log(canPay(expenses, targetAmount));
 
 /* javascript Problem Solve 4 */
-function findAddress(obj) {
-  if (typeof obj !== 'object') {
-    return 'please provide me a valid object';
-  } else {
-    const street = obj.street || '__';
-    const house = obj.house || '__';
-    const society = obj.society || '__';
-    // console.log(street, house, society);
-    return '' + street + ' ' + house + '' + society + '';
-  }
-}
-const obj = {
-  street: '123 Main St',
-  house: 'A-1',
-  society: 'Green Valley',
-};
 
-console.log(findAddress(obj));
+// function findAddress(obj) {
+//   if (typeof obj !== 'object') {
+//     return 'please provide me a valid object';
+//   } else {
+//     const street = obj.street || '__';
+//     const house = obj.house || '__';
+//     const society = obj.society || '__';
+//     // console.log(street, house, society);
+//     return '' + street + ' ' + house + '' + society + '';
+//   }
+// }
+// const obj = {
+//   street: '123 Main St',
+//   house: 'A-1',
+//   society: 'Green Valley',
+// };
+// console.log(findAddress(obj));
+
+/* javascript Problem Solve 3 */
+
+// function sortMaker(arr) {
+//   if (arr[0] < 0 || arr[1] < 0) {
+//     return 'invalid input';
+//   } else if (arr[0] === arr[1]) {
+//     return 'equal';
+//   } else if (arr[0] > 0 && arr[1] > 0) {
+//     if (arr[0] < arr[1]) {
+//       let temp = arr[0];
+//       arr[0] = arr[1];
+//       arr[1] = temp;
+//     }
+//     return arr;
+//   } else {
+//     return 'invalid input';
+//   }
+// }
+// let result1 = [5, 10];
+// let result2 = [7, 7];
+// let result3 = [-3, 8];
+// console.log(sortMaker(result1));
+// console.log(sortMaker(result2));
+// console.log(sortMaker(result3));
+
+/* javascript Problem Solve 2 */
+
+// function matchFinder(string1, string2) {
+//   if (typeof string1 !== 'string' || typeof string2 !== 'string') {
+//     return 'Inputs Should be strings.';
+//   }
+
+//   const matchWordFinder = string2.split(' ');
+//   for (const word of matchWordFinder) {
+//     if (string1.includes(word)) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// console.log(matchFinder('hello', 'llo'));
+// console.log(matchFinder('hello', 'hello'));
+// console.log(matchFinder('apple', 'orange'));
+// console.log(matchFinder('javascript', 'code'));
+// console.log(matchFinder('peter parker', 'pen'));
+// console.log(matchFinder('Peter parker', 'pet'));
+// console.log(matchFinder(23, 45));
+
+/* javascript Problem Solve 1 */
+
+// function cubeNumber(numbers) {
+//   if (typeof numbers === 'number') {
+//     return numbers ** 3;
+//   } else if (typeof numbers === 'string') {
+//     return 'Error: Input should be a number.';
+//   } else {
+//     return 'Error: Input should be a number.';
+//   }
+// }
+// console.log(cubeNumber(3));
+// console.log(cubeNumber(4));
+// console.log(cubeNumber('hello'));
