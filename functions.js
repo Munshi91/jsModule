@@ -253,7 +253,7 @@ console.log(output3.street, output3.house, output3.society); */
 //   return sum === totalDue;
 // }
 
-// Example usage
+// // Example usage
 // const expenses = [25, 25, 50, 20];
 // const targetAmount = 120;
 // console.log(canPay(expenses, targetAmount));
